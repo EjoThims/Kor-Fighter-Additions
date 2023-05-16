@@ -47,7 +47,7 @@ ship "Ere-Skiff"
 	explode "tiny explosion" 20
 	description "The Korath which live in the last few inhabited worlds of their ancestral space do not have access to large swaths of readily available mineral resources on the crust of their dying worlds, not to speak of the environmental damage of mining them using their traditional methods. Much like their exiled cousins, the Efreti instead primarily rely on mining asteroids to keep their manufacturing running, and the Ere-Skiff conducts the bulk of this mining. Though not an independent interstellar craft, these ships can still readily outrun the occasional Mereti drone that sneaks past the Quarg, in part due to low upgrade prioritization leaving them reliant on older and more powerful, but far less heat effecient, engines."
 
-ship "Korath Barb"
+ship "Kor-Barb"
 	sprite "ship/KorBarb"
 	thumbnail "thumbnail/KorBarbthumb"
 	attributes
@@ -80,11 +80,11 @@ ship "Korath Barb"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Occasionally, Exile raids in human space will lose one of their carried ships, leaving open bays that may as well be filled if enemy fighters can be captured conveniently. While far too compartively weak a base to be retrofitted for combat in turn, they can instead help bolster the numbers of less aggressive mining fleets. This Syndicated Shipyard's Barb has clearly been extensively modified by the Korath Exiles; the hollowed out body of a second Barb has been added in place of the original gun port, while a smaller Korath gunport has been installed uncomfortably close to the cockpit."
+	description "Occasionally, Exile raids in human space will lose one of their carried ships, leaving open bays that may as well be filled if enemy fighters can be captured conveniently. While far too comparatively weak a base to be retrofitted for combat in turn, they can instead help bolster the numbers of less aggressive mining fleets. This Syndicated Shipyard's Barb has clearly been extensively modified by the Korath Exiles; the hollowed out body of a second Barb has been added in place of the original gun port, while a smaller Korath gunport has been installed uncomfortably close to the cockpit."
 
-ship "Exileminer"
-	sprite "ship/Exileminer"
-	thumbnail "thumbnail/Exileminerthumb"
+ship "Kelhfavreb"
+	sprite "ship/Kelhfavreb"
+	thumbnail "thumbnail/Kelhfavrebthumb"
 	attributes
 		category "Fighter"
 		"cost" 371000
@@ -143,9 +143,9 @@ ship "Exileminer"
 	explode "tiny explosion" 20
 	description "This dedicated mining craft, far more vulnerable and also less agile than the 'olofez, is seldom used in systems with hostile presence, but often fill out bays on Exile fleets seeking out isolated systems holding large supplies of resources now rare in their space."
 	
-ship "Korath Hunter"
-	sprite "ship/Hunter"
-	thumbnail "thumbnail/Hunterthumb"
+ship "A'atal"
+	sprite "ship/A'atal"
+	thumbnail "thumbnail/A'atalthumb"
 	attributes
 		category "Fighter"
 		cost 893000
@@ -184,7 +184,7 @@ ship "Korath Hunter"
 	explode "tiny explosion" 30
 	description "A much larger and bulkier but significantly slower counterpart to the 'olofez, this Carried Chaser is capable of carrying more armor and shielding while fielding more weapons across more modular configurations. The increased resource cost makes highly limits their production, however."
 
-ship "Korath Hunter" "Korath Hunter (Firelance Digger)"
+ship "A'atal" "A'atal (Firelance Digger)"
 	outfits
 		"Digger Mining Beam" 2
 		"Generator (Furnace Class)"
@@ -198,7 +198,7 @@ ship "Korath Hunter" "Korath Hunter (Firelance Digger)"
 	gun "Korath Fire-Lance"
 	gun "Digger Mining Beam"
 	
-ship "Korath Hunter" "Korath Hunter (Expeller)"
+ship "A'atal" "A'atal (Expeller)"
 	outfits
 		"Bow Drive (Meteor Class)"
 		"Expeller Grav-Ray" 2
@@ -210,7 +210,7 @@ ship "Korath Hunter" "Korath Hunter (Expeller)"
 	gun 
 	gun "Expeller Grav-Ray"
 	
-ship "Korath Hunter" "Korath Hunter (Mining Retrofit)"
+ship "A'atal" "A'atal (Mining Retrofit)"
 	outfits
 		"Bow Drive (Meteor Class)"
 		"Cargo Expansion"
@@ -224,9 +224,9 @@ ship "Korath Hunter" "Korath Hunter (Mining Retrofit)"
 	gun "Digger Mining Beam"
 	gun "Digger Mining Beam"
 	
-ship "Korath Dropbox"
-	sprite "ship/Dropbox"
-	thumbnail "thumbnail/Dropboxthumb"
+ship "Tufuf"
+	sprite "ship/Tufuf"
+	thumbnail "thumbnail/Tufufthumb"
 	attributes
 		category "Fighter"
 		"cost" 371000
@@ -273,7 +273,7 @@ ship "Korath Dropbox"
 	explode "tiny explosion" 30
 	description "Designed to shuttle small groups of Exiles to and from various stations and ships, the Dropbox sacrifices the bulk of it's structure and shielding to instead field a Warder Anti-Missile as it's primary defense. A Tiny System Core and multidirectional engine set up serve to enhance it's civilian functions. On occasion, it has also seen use as a troop transport in Exile raids." 
 	
-ship "Korath Dropbox" "Korath Dropbox (Troop)"
+ship "Tufuf" "Tufuf (Troop)"
 	outfits
 		"Thruster (Asteroid Class)"
 		"Warder Anti-Missile"
@@ -287,7 +287,6 @@ ship "Korath Dropbox" "Korath Dropbox (Troop)"
 shipyard "korath"
 	"Ere-Skiff"
 	"Korath Barb"
-	"Korath Miner"
-	"Korath Hunter"
-	"Korath Dropbox"
-	"Exileminer"
+	"A'atal"
+	"Tufuf"
+	"Kelhfavreb"
