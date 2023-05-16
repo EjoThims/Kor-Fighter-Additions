@@ -47,9 +47,9 @@ ship "Ere-Skiff"
 	explode "tiny explosion" 20
 	description "The Korath which live in the last few inhabited worlds of their ancestral space do not have access to large swaths of readily available mineral resources on the crust of their dying worlds, not to speak of the environmental damage of mining them using their traditional methods. Much like their exiled cousins, the Efreti instead primarily rely on mining asteroids to keep their manufacturing running, and the Ere-Skiff conducts the bulk of this mining. Though not an independent interstellar craft, these ships can still readily outrun the occasional Mereti drone that sneaks past the Quarg, in part due to low upgrade prioritization leaving them reliant on older and more powerful, but far less heat effecient, engines."
 
-ship "Kor-Barb"
-	sprite "ship/KorBarb"
-	thumbnail "thumbnail/KorBarbthumb"
+ship "Tikia-Barb"
+	sprite "ship/Tikia-Barb"
+	thumbnail "thumbnail/Tikia-Barbthumb"
 	attributes
 		category "Fighter"
 		"cost" 50000
@@ -80,7 +80,8 @@ ship "Kor-Barb"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Occasionally, Exile raids in human space will lose one of their carried ships, leaving open bays that may as well be filled if enemy fighters can be captured conveniently. While far too comparatively weak a base to be retrofitted for combat in turn, they can instead help bolster the numbers of less aggressive mining fleets. This Syndicated Shipyard's Barb has clearly been extensively modified by the Korath Exiles; the hollowed out body of a second Barb has been added in place of the original gun port, while a smaller Korath gunport has been installed uncomfortably close to the cockpit."
+	description "Occasionally, Exile raids in human space will lose one of their carried ships, leaving open bays that may as well be filled if enemy fighters can be captured conveniently. While far too comparatively weak a base to be retrofitted for combat in turn, they can instead help bolster the numbers of less aggressive mining fleets."
+	description "	Even the Korath Exiles consider the Syndicated Shipyard's Barb to be an incredibly ugly ship and, sarcastically, call this salvaged version "pretty Barb" in their language, because their extensive modifications do nothing to improve it's aesthetic value. The largest of these modifications is the hollowed out body of a second Barb added in place of the original gun port, while a smaller Korath gunport has been installed uncomfortably close to the cockpit."
 
 ship "Kelhfavreb"
 	sprite "ship/Kelhfavreb"
